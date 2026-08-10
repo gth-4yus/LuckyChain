@@ -1,0 +1,25 @@
+{
+  "name": "luckychain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gth-4yus/LuckyChain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/gth-4yus/LuckyChain/issues"
+  },
+  "homepage": "https://github.com/gth-4yus/LuckyChain#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.7",
+    "hardhat": "^3.12.0"
+  }
+}
