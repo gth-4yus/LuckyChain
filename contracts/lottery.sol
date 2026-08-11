@@ -23,7 +23,7 @@ contract Lottery{
        return uint (keccak256(abi.encodePacked(block.difficulty,block.timestamp,participants.length)));
     }
 
-    function pickewinner() public{
+    function pickwinner() public{
         require(admin==msg.sender , "You are not the manager");
         require(participants.length>=3,"Player are less than 3");
 
